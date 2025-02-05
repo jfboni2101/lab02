@@ -23,7 +23,7 @@ def main():
 
     accuracy = float(np.sum(predictions == y_test)) / y_test.shape[0]
     print(f'Test accuracy: {accuracy}')
-    # print(x_train.shape)
+    print(x_train.shape)
 
     # plot_boundary(x_train, y_train, logistic_reg, title='Training Set')
 

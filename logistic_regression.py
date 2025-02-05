@@ -128,7 +128,7 @@ class LogisticRegression:
 
             if verbose and e % 500 == 0:
                 print(f'Epoch {e:4d}: loss={L}')
-
+                print(self.w)
             """
             # Update w based on the gradient descent rule
             # w(t+1) = w(t) - learning_rate * dL/dw(t)
