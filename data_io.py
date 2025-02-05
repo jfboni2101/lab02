@@ -4,8 +4,8 @@ from googledrivedownloader import download as d
 
 
 d.download_file_from_google_drive(file_id='1SagLh5XNSV4znhlnkLRkV7zHPSDbOAqv',
-                                                      dest_path='./data/got.zip',
-                                                      unzip=True)
+                                  dest_path='./data/got.zip',
+                                  unzip=True)
 
 def gaussians_dataset(n_gaussian, n_points, mus, stds):
     """
